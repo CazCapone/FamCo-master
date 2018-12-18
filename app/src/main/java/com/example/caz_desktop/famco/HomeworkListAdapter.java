@@ -32,7 +32,7 @@ public class HomeworkListAdapter extends BaseAdapter {
 
     @Override
     public Object getItem(int position) {
-        return description.get(position);
+        return description.get(position); //
     }
 
     @Override
