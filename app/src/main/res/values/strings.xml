@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FamCo</string>
+    <string name="homework_button">Homework and Projects</string>
+    <string name="manage_groups_button">Manage Family Circle</string>
+
+
+    <string name="description_text_field">Description</string>
+
+
+</resources>
