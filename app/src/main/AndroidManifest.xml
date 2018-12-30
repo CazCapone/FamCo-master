@@ -18,7 +18,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HomeworkListActivity"></activity>
+        <activity android:name=".HomeworkListActivity" />
+        <activity android:name=".ListChoicesActivity" />
+        <activity android:name=".ShareActivity" />
+        <activity android:name=".AddHomeworkActivity" />
+        <activity android:name=".AddAnotherActivity" />
+        <activity android:name=".ShareFileActivity" />
+        <activity android:name=".ChooseFileSourceActivity"></activity>
     </application>
 
 </manifest>

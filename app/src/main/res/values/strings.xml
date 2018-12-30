@@ -1,10 +1,56 @@
 <resources>
     <string name="app_name">FamCo</string>
-    <string name="homework_button">Homework and Projects</string>
+
+    <!--Main Buttons-->
+    <string name="lists_button">My Lists</string>
+    <string name="share_button">Share Files - Pics - Memories</string>
+    <string name="chat_button">Group Chat</string>
+    <string name="dinner_button">Dinner Bell</string>
+    <string name="calendar_button">Calendar</string>
+    <string name="gps_button">GPS</string>
     <string name="manage_groups_button">Manage Family Circle</string>
 
 
+    <!-- List Choice Buttons -->
+    <string name="homework_button">Homework Lists</string>
+    <string name="projects_button">Project Lists</string>
+    <string name="todo_button">To-do Lists</string>
+    <string name="shopping_button">Shopping Lists</string>
+    <string name="custom_button">Create Custom List</string>
+
+
+    <!-- Homework List Fields-->
     <string name="description_text_field">Description</string>
+    <string name="delete_hw_button">Delete</string>
+    <string name="due_date_field">Due On</string>
 
 
+    <!-- Share with adapter fields-->
+    <string name="share_with_textfield">Share With: </string>
+    <string name="group_picker_spinner">Groups</string>
+    <string name="user_picker_spinner">Family/Friend</string>
+
+    <!-- multiple use-->
+    <string name="ok_button">Ok</string>
+    <string name="cancel_button">Cancel</string>
+    <!-- <string name="description_textview">Description</string>-->
+    <string name="enable_push_notifications_textfield">Enable Notifications</string>
+    <string name="attachment_button">Add Attachment/Photo</string>
+    <string name="add_notes_textview">Notes</string>
+
+    <!--Add another fields-->
+    <string name="add_another_textview">Add Another?</string>
+    <string name="add_another_button">Yes</string>
+    <string name="do_not_add_another_button">No</string>
+
+    <!--Share pics and files fields-->
+    <string name="share_file_button">Share File</string>
+    <string name="share_picture_button">Share Picture</string>
+    <string name="share_memory_button">Share Memory</string>
+    <string name="choose_source_textfield">Choose File Location</string>
+    <string name="take_picture_button">Take a Picture</string>
+    <string name="open_file_location_button">Find File</string>
+
+
+    //NOTHING HAS BEEN DONE TO THIS ACTIVITY
 </resources>

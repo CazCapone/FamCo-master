@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShareFileActivity">
+
+    <Button
+        android:id="@+id/shareFilesBtn"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/share_file_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sharePictureBtn"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/share_picture_button"
+        app:layout_constraintEnd_toEndOf="@+id/shareFilesBtn"
+        app:layout_constraintStart_toStartOf="@+id/shareFilesBtn"
+        app:layout_constraintTop_toBottomOf="@+id/shareFilesBtn" />
+
+    <Button
+        android:id="@+id/shareMemoryBtn"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/share_memory_button"
+        app:layout_constraintEnd_toEndOf="@+id/sharePictureBtn"
+        app:layout_constraintStart_toStartOf="@+id/sharePictureBtn"
+        app:layout_constraintTop_toBottomOf="@+id/sharePictureBtn" />
+</android.support.constraint.ConstraintLayout>
