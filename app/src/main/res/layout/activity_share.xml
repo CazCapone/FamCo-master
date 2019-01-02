@@ -40,9 +40,9 @@
 
     <Button
         android:id="@+id/cancelBtn"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/cancel_button"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,9 +50,9 @@
 
     <Button
         android:id="@+id/okBtn"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/ok_button"
         app:layout_constraintBottom_toBottomOf="parent"

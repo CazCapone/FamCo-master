@@ -8,12 +8,11 @@
 
     <Button
         android:id="@+id/homeworkBtn"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:text="@string/homework_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,6 +20,7 @@
 
     <Button
         android:id="@+id/projectsBtn"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/projects_button"
@@ -30,6 +30,7 @@
 
     <Button
         android:id="@+id/todoBtn"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/todo_button"
@@ -39,6 +40,7 @@
 
     <Button
         android:id="@+id/shoppingListBtn"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/shopping_button"
@@ -48,6 +50,7 @@
 
     <Button
         android:id="@+id/customListBtn"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/custom_button"

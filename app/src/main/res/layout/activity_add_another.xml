@@ -23,6 +23,7 @@
 
     <Button
         android:id="@+id/addAnotherBtn"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/add_another_button"
@@ -32,6 +33,7 @@
 
     <Button
         android:id="@+id/doNotAddAnotherBtn"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/do_not_add_another_button"

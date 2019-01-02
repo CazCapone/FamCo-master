@@ -1,9 +1,12 @@
 package com.example.caz_desktop.famco;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ListView;
 
 import java.util.LinkedHashMap;
@@ -30,6 +33,18 @@ public class HomeworkListActivity extends AppCompatActivity {
         Resources res = getResources();
         homeworkListView = (ListView)findViewById(R.id.homeworkListView);
         thisContext = this;
+
+        homeworkMap.put("test", "test2");
+
+
+        FloatingActionButton addHomework = (FloatingActionButton)findViewById(R.id.addHwFab);
+        addHomework.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent addHomeworkIntent = new Intent(getApplicationContext(), AddHomeworkActivity.class);
+                startActivity(addHomeworkIntent);
+            }
+        });
 
 
 //test

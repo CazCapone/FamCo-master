@@ -5,61 +5,56 @@
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:id="@+id/relativeLayout2">
 
-    <CheckBox
-        android:id="@+id/homeworkCheckBox"
+    <CheckedTextView
+        android:id="@+id/homeworkDescriptionCheckedTextView"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/homeworkDescriptionTextView"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:text="@string/description_text_field"
         android:textSize="18sp"
-        app:layout_constraintStart_toEndOf="@+id/homeworkCheckBox"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="This will be a homework assighnment" />
+        tools:text="This will be a homework assignment" />
 
     <EditText
         android:id="@+id/homeworkDateField"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:ems="10"
+        android:hint="Enter Due Date"
         android:inputType="date"
         android:text="@string/due_date_field"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="@+id/homeworkDescriptionTextView"
-        app:layout_constraintTop_toBottomOf="@+id/homeworkDescriptionTextView" />
+        app:layout_constraintStart_toStartOf="@+id/homeworkDescriptionCheckedTextView"
+        app:layout_constraintTop_toBottomOf="@+id/homeworkDescriptionCheckedTextView" />
 
     <Button
         android:id="@+id/button"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
+        android:layout_marginTop="48dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:text="@string/delete_hw_button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/homeworkDateField"
-        tools:layout_editor_absoluteY="40dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/addHwFab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:clickable="true"
         app:backgroundTint="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@android:drawable/ic_input_add" />
+
+
 
 </android.support.constraint.ConstraintLayout>

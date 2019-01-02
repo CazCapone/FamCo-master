@@ -1,6 +1,8 @@
 package com.example.caz_desktop.famco;
 
 import android.content.Context;
+import android.content.Intent;
+import android.support.design.widget.FloatingActionButton;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -43,11 +45,14 @@ public class HomeworkListAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         View v = mInflator.inflate(R.layout.homework_list_layout, null);
-        TextView descriptionTextView = (TextView) v.findViewById(R.id.homeworkDescriptionTextView);
+        TextView descriptionTextView = (TextView) v.findViewById(R.id.homeworkDescriptionCheckedTextView);
         TextView dueDateTextView = (TextView) v.findViewById(R.id.homeworkDateField);
+
 
         descriptionTextView.setText(description.get(position));
         dueDateTextView.setText(dueDate.get(position));
+
+
 
         return v;
     }
